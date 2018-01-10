@@ -25,10 +25,10 @@ namespace DocExamples
 
                     int[] handleArray = easyDAClient.SubscribeMultipleItems(
                         new[] {
-                            new DAItemGroupArguments("", "OPCLabs.KitServer.2", "Simulation.Random", 1000, null), 
-                            new DAItemGroupArguments("", "OPCLabs.KitServer.2", "Trends.Ramp (1 min)", 1000, null), 
-                            new DAItemGroupArguments("", "OPCLabs.KitServer.2", "Trends.Sine (1 min)", 1000, null),  
-                            new DAItemGroupArguments("", "OPCLabs.KitServer.2", "Simulation.Register_I4", 1000, null)
+                            new DAItemGroupArguments("", "AutoJet.ACPFileServerDA.1", "Simulation.Random", 1000, null), 
+                            new DAItemGroupArguments("", "AutoJet.ACPFileServerDA.1", "Trends.Ramp (1 min)", 1000, null), 
+                            new DAItemGroupArguments("", "AutoJet.ACPFileServerDA.1", "Trends.Sine (1 min)", 1000, null),  
+                            new DAItemGroupArguments("", "AutoJet.ACPFileServerDA.1", "Simulation.Register_I4", 1000, null)
                         });
 
                     Console.WriteLine("Processing item changed events for 30 seconds...");

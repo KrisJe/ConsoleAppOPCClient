@@ -23,7 +23,7 @@ namespace DocExamples
             public static void DataType()
             {
                 var easyDAClient = new EasyDAClient();
-                ServerDescriptor serverDescriptor = "OPCLabs.KitServer.2";
+                ServerDescriptor serverDescriptor = "AutoJet.ACPFileServerDA.1";
 
                 // Browse for all leaves under the "Simulation" branch
                 DANodeElementCollection nodeElementCollection = easyDAClient.BrowseLeaves(serverDescriptor, "Simulation");

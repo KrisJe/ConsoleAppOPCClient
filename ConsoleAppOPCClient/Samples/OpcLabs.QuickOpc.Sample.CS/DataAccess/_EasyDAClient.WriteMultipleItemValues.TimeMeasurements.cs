@@ -63,7 +63,7 @@ namespace DocExamples
                 for (int iLoop = 0; iLoop < NumberOfGroups; iLoop++)
                     for (int iItem = 0; iItem < ItemsInGroup; iItem++)
                         arguments[index++] = new DAItemValueArguments(
-                            "OPCLabs.KitServer.2",
+                            "AutoJet.ACPFileServerDA.1",
                             String.Format("Simulation.Incrementing.Copy_{0}.Phase_{1}", iLoop + 1, iItem + 1),
                             0);
 
@@ -95,7 +95,7 @@ namespace DocExamples
                     var arguments = new DAItemValueArguments[ItemsInGroup];
                     for (int iItem = 0; iItem < ItemsInGroup; iItem++)
                         arguments[iItem] = new DAItemValueArguments(
-                            "OPCLabs.KitServer.2", 
+                            "AutoJet.ACPFileServerDA.1", 
                             String.Format("Simulation.Incrementing.Copy_{0}.Phase_{1}", iLoop + 1, iItem + 1),
                             0);
 

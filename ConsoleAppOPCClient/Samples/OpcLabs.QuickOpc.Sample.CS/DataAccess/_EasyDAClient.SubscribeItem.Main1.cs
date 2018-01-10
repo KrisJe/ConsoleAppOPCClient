@@ -26,7 +26,7 @@ namespace DocExamples
                     client.ItemChanged += eventHandler;
 
                     Console.WriteLine("Subscribing item...");
-                    client.SubscribeItem("", "OPCLabs.KitServer.2", "Demo.Ramp", 200);
+                    client.SubscribeItem("", "AutoJet.ACPFileServerDA.1", "Demo.Ramp", 200);
                     Thread.Sleep(30 * 1000);
                     client.UnsubscribeAllItems();
                     client.ItemChanged -= eventHandler;

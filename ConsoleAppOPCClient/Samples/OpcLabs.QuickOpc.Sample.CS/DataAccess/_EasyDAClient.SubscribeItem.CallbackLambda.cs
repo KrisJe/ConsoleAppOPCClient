@@ -25,7 +25,7 @@ namespace DocExamples
 
                 Console.WriteLine("Subscribing...");
                 // The callback is a lambda expression the displays the value
-                easyDAClient.SubscribeItem("", "OPCLabs.KitServer.2", "Simulation.Random", 1000,
+                easyDAClient.SubscribeItem("", "AutoJet.ACPFileServerDA.1", "Simulation.Random", 1000,
                     (sender, eventArgs) =>
                         {
                             Debug.Assert(eventArgs != null);

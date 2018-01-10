@@ -26,7 +26,7 @@ namespace DocExamples
                     easyDAClient.ItemChanged += easyDAClient_ItemChanged_PercentDeadband;
 
                     Console.WriteLine("Subscribing with 10% deadband...");
-                    int handle = easyDAClient.SubscribeItem("", "OPCLabs.KitServer.2", "Simulation.Ramp 0-100 (10 s)", 
+                    int handle = easyDAClient.SubscribeItem("", "AutoJet.ACPFileServerDA.1", "Simulation.Ramp 0-100 (10 s)", 
                         VarTypes.Empty, 100, 10.0f, null);
 
                     Console.WriteLine("Waiting for 10 seconds...");

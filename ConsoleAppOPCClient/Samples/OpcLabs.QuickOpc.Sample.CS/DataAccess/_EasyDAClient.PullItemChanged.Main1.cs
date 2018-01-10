@@ -20,7 +20,7 @@ namespace DocExamples
                 var easyDAClient = new EasyDAClient { PullItemChangedQueueCapacity = 1000 };
 
                 Console.WriteLine("Subscribing item changes...");
-                easyDAClient.SubscribeItem("", "OPCLabs.KitServer.2", "Simulation.Random", 1000);
+                easyDAClient.SubscribeItem("", "AutoJet.ACPFileServerDA.1", "Simulation.Random", 1000);
 
                 Console.WriteLine("Processing item changes for 1 minute...");
                 int endTick = Environment.TickCount + 60*1000;

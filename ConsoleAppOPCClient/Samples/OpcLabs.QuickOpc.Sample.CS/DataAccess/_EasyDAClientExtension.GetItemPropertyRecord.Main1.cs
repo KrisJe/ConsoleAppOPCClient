@@ -19,7 +19,7 @@ namespace DocExamples
 
                 // Get a structure containing values of all well-known properties
                 DAItemPropertyRecord itemPropertyRecord =
-                    easyDAClient.GetItemPropertyRecord("", "OPCLabs.KitServer.2", "Simulation.Random");
+                    easyDAClient.GetItemPropertyRecord("", "AutoJet.ACPFileServerDA.1", "Simulation.Random");
 
                 // Display some of the obtained property values
                 Console.WriteLine("itemPropertyRecord.AccessRights: {0}", itemPropertyRecord.AccessRights);

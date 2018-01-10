@@ -66,7 +66,7 @@ namespace DocExamples
                 // Define several type-less mappings for the same source, with different mapping kinds.
 
                 Type targetType = target.GetType();
-                var source = new DAClientItemSource("OPCLabs.KitServer.2", "Demo.Ramp", 1000, DADataSource.Cache);
+                var source = new DAClientItemSource("AutoJet.ACPFileServerDA.1", "Demo.Ramp", 1000, DADataSource.Cache);
 
                 mapper.DefineMapping(
                      source,

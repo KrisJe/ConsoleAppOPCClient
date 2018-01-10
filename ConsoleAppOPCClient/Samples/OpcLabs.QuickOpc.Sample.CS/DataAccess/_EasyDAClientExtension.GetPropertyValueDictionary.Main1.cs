@@ -20,7 +20,7 @@ namespace DocExamples
 
                 // Get dictionary of property values, for all well-known properties
                 DAPropertyValueDictionary propertyValueDictionary = 
-                    easyDAClient.GetPropertyValueDictionary("", "OPCLabs.KitServer.2", "Simulation.Random");
+                    easyDAClient.GetPropertyValueDictionary("", "AutoJet.ACPFileServerDA.1", "Simulation.Random");
 
                 // Display some of the obtained property values
                 // The production code should also check for the .Exception first, before getting .Value

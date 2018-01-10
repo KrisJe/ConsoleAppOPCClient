@@ -16,7 +16,7 @@ namespace DocExamples
             {
                 var easyDAClient = new EasyDAClient();
 
-                easyDAClient.WriteItemValue("", "OPCLabs.KitServer.2", "Simulation.Register_I4", 12345);
+                easyDAClient.WriteItemValue("", "AutoJet.ACPFileServerDA.1", "Simulation.Register_I4", 12345);
             }
         }
     }

@@ -22,7 +22,7 @@ namespace DocExamples
             {
                 var easyDAClient = new EasyDAClient();
 
-                object value = easyDAClient.GetPropertyValue("", "OPCLabs.KitServer.2", "Simulation.Random", 
+                object value = easyDAClient.GetPropertyValue("", "AutoJet.ACPFileServerDA.1", "Simulation.Random", 
                     DAPropertyIds.Timestamp);
 
                 Console.WriteLine(value);

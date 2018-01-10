@@ -18,10 +18,10 @@ namespace DocExamples
                 var client = new EasyDAClient();
 
                 Console.WriteLine("Writing array value...");
-                client.WriteItemValue("", "OPCLabs.KitServer.2", "Simulation.Register_ArrayOfI2", new Int16[] { 1234, 2345, 3456 });
+                client.WriteItemValue("", "AutoJet.ACPFileServerDA.1", "Simulation.Register_ArrayOfI2", new Int16[] { 1234, 2345, 3456 });
 
                 Console.WriteLine("Reading array value...");
-                var value = (Int16[])client.ReadItemValue("", "OPCLabs.KitServer.2", "Simulation.Register_ArrayOfI2");
+                var value = (Int16[])client.ReadItemValue("", "AutoJet.ACPFileServerDA.1", "Simulation.Register_ArrayOfI2");
                 if (value != null)
                 {
                     Console.WriteLine(value[0]);

@@ -23,7 +23,7 @@ namespace DocExamples
                 Console.WriteLine();
                 Console.WriteLine("Reading \"{0}\"...", itemId);
 
-                DAVtq vtq = Client.ReadItem("OPCLabs.KitServer.2", itemId);
+                DAVtq vtq = Client.ReadItem("AutoJet.ACPFileServerDA.1", itemId);
                 Console.WriteLine("Vtq: {0}", vtq);
             }
 

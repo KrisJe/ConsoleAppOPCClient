@@ -20,7 +20,7 @@ namespace DocExamples
             {
                 var client = new EasyDAClient();
                 Console.WriteLine("Reading item value...");
-                Console.WriteLine(client.ReadItemValue("", "OPCLabs.KitServer.2", "Demo.Ramp"));
+                Console.WriteLine(client.ReadItemValue("", "AutoJet.ACPFileServerDA.1", "Demo.Ramp"));
             }
         }
     }

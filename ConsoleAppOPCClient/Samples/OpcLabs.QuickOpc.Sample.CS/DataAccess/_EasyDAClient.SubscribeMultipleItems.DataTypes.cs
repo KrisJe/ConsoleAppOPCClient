@@ -74,7 +74,7 @@ namespace DocExamples
                     "Simulation.ReadValue_ArrayOfUI4",
                     "Simulation.ReadValue_ArrayOfINT",
                     "Simulation.ReadValue_ArrayOfUINT",
-                }.Select(itemId => new DAItemGroupArguments("", "OPCLabs.KitServer.2", itemId, 3*1000, null));
+                }.Select(itemId => new DAItemGroupArguments("", "AutoJet.ACPFileServerDA.1", itemId, 3*1000, null));
 
                 var eventHandler = new EasyDAItemChangedEventHandler(client_ItemChanged);
                 var client = new EasyDAClient();

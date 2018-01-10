@@ -37,7 +37,7 @@ namespace DocExamples
                 // Define a type-less mapping.
 
                 mapper.DefineMapping(
-                     new DAClientItemSource("OPCLabs.KitServer.2", "Demo.Ramp", 1000, DADataSource.Cache),
+                     new DAClientItemSource("AutoJet.ACPFileServerDA.1", "Demo.Ramp", 1000, DADataSource.Cache),
                      new DAClientItemMapping(typeof(Double)),
                      new ObjectMemberLinkingTarget(target.GetType(), target, "Value"));
 

@@ -32,7 +32,7 @@ namespace DocExamples
                         int copy = (i / 100) + 1;
                         int phase = (i % 100) + 1;
                         string itemId = String.Format("Simulation.Incrementing.Copy_{0}.Phase_{1}", copy, phase);
-                        argumentArray[i] = new DAItemGroupArguments("", "OPCLabs.KitServer.2", itemId, 50, null);
+                        argumentArray[i] = new DAItemGroupArguments("", "AutoJet.ACPFileServerDA.1", itemId, 50, null);
                     }
 
                     Console.WriteLine("Subscribing to {0} items...", numberOfItems);

@@ -20,7 +20,7 @@ namespace DocExamples
                 var easyDAClient = new EasyDAClient();
 
                 // Get the DataType property value, already converted to VarType
-                VarType varType = easyDAClient.GetDataTypePropertyValue("", "OPCLabs.KitServer.2", "Simulation.Random");
+                VarType varType = easyDAClient.GetDataTypePropertyValue("", "AutoJet.ACPFileServerDA.1", "Simulation.Random");
 
                 // Display the obtained data type
                 Console.WriteLine("VarType: {0}", varType); // Display data type symbolically

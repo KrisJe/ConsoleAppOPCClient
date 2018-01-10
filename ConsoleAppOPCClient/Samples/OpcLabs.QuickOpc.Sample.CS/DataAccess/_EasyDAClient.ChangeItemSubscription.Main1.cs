@@ -25,7 +25,7 @@ namespace DocExamples
                     easyDAClient.ItemChanged += easyDAClient_ItemChanged;
 
                     Console.WriteLine("Subscribing...");
-                    int handle = easyDAClient.SubscribeItem("", "OPCLabs.KitServer.2", "Simulation.Random", 1000);
+                    int handle = easyDAClient.SubscribeItem("", "AutoJet.ACPFileServerDA.1", "Simulation.Random", 1000);
 
                     Console.WriteLine("Waiting for 10 seconds...");
                     Thread.Sleep(10 * 1000);
