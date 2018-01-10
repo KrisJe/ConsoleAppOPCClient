@@ -29,7 +29,7 @@ namespace DocExamples
                 easyAEClient.Notification += eventHandler;
 
                 // Inactivate the event condition (we will later activate it and receive the notification)
-                easyDAClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState1.Inactivate", true);
+                easyDAClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState1.Inactivate", true);
 
                 var subscriptionFilter = new AESubscriptionFilter
                 {
@@ -50,11 +50,11 @@ namespace DocExamples
                 Thread.Sleep(5 * 1000);
 
                 // Trigger an event carrying specified attributes (activate the condition)
-                easyDAClient.WriteItemValue("", "OPCLabs.KitServer.2",
+                easyDAClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1",
                     "SimulateEvents.ConditionState1.AttributeValues.15400963", 123456);
-                easyDAClient.WriteItemValue("", "OPCLabs.KitServer.2", 
+                easyDAClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", 
                     "SimulateEvents.ConditionState1.AttributeValues.15400968", "Some string value");
-                easyDAClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState1.Activate", true);
+                easyDAClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState1.Activate", true);
 
                 Console.WriteLine("Processing event notifications for 10 seconds...");
                 Thread.Sleep(10 * 1000);

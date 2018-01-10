@@ -42,9 +42,9 @@ namespace DocExamples
 
                 // Set some events to active state.
                 // The activation below will come from a source contained in a filter and the notification will arrive.
-                EasyDaClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState1.Activate", true);
+                EasyDaClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState1.Activate", true);
                 // The activation below will come from a source that is not contained in a filter and the notification will not arrive.
-                EasyDaClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState2.Activate", true);
+                EasyDaClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState2.Activate", true);
 
                 Thread.Sleep(10 * 1000);
 

@@ -42,7 +42,7 @@ namespace DocExamples
                 Thread.Sleep(5 * 1000);
 
                 // Trigger an acknowledgeable event
-                EasyDAClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState1.Activate", true);
+                EasyDAClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState1.Activate", true);
 
                 _done = false;
                 DateTime endTime = DateTime.Now + new TimeSpan(0, 0, 5);

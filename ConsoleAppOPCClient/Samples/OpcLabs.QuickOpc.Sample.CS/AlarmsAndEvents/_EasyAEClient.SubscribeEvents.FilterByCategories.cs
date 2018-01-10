@@ -40,8 +40,8 @@ namespace DocExamples
                 Thread.Sleep(5 * 1000);
 
                 // Set some events to active state.
-                EasyDaClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState1.Activate", true);
-                EasyDaClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState2.Activate", true);
+                EasyDaClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState1.Activate", true);
+                EasyDaClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState2.Activate", true);
 
                 Thread.Sleep(10 * 1000);
 

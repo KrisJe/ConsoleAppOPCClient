@@ -25,8 +25,8 @@ namespace DocExamples
                 Console.WriteLine("Writing multiple item values...");
                 OperationResult[] resultArray = client.WriteMultipleItemValues(
                     new[] { 
-                    new DAItemValueArguments("", "OPCLabs.KitServer.2", "Simulation.Register_I2", 12345), 
-                    new DAItemValueArguments("", "OPCLabs.KitServer.2", "Simulation.Register_R4", 234.56)
+                    new DAItemValueArguments("", "AutoJet.ACPFileServerDA.1", "Simulation.Register_I2", 12345), 
+                    new DAItemValueArguments("", "AutoJet.ACPFileServerDA.1", "Simulation.Register_R4", 234.56)
                 });
 
 

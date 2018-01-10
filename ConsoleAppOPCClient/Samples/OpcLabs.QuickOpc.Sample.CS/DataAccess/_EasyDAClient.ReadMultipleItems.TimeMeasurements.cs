@@ -89,7 +89,7 @@ namespace DocExamples
                             String.Format("Simulation.Incrementing.Copy_{0}.Phase_{1}", iLoop + 1, iItem + 1));
 
                 // Perform the OPC read
-                DAVtqResult[] vtqResults = easyDAClient.ReadMultipleItems("OPCLabs.KitServer.2", itemDescriptors);
+                DAVtqResult[] vtqResults = easyDAClient.ReadMultipleItems("AutoJet.ACPFileServerDA.1", itemDescriptors);
 
                 // Count successful results
                 int successCount = 0;
@@ -119,7 +119,7 @@ namespace DocExamples
                             String.Format("Simulation.Incrementing.Copy_{0}.Phase_{1}", iLoop + 1, iItem + 1));
 
                     // Perform the OPC read
-                    DAVtqResult[] vtqResults = easyDAClient.ReadMultipleItems("OPCLabs.KitServer.2", itemDescriptors);
+                    DAVtqResult[] vtqResults = easyDAClient.ReadMultipleItems("AutoJet.ACPFileServerDA.1", itemDescriptors);
 
                     // Count successful results (totalling to previous value)
                     for (int iItem = 0; iItem < ItemsInGroup; iItem++)

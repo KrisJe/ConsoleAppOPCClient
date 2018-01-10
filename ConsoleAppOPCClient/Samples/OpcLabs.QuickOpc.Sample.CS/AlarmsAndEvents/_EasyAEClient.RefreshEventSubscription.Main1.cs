@@ -43,8 +43,8 @@ namespace DocExamples
 
                 // Set some events to active state, which will cause them to appear in refresh
                 Console.WriteLine("Activating conditions and waiting for 10 seconds...");
-                EasyDaClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState1.Activate", true);
-                EasyDaClient.WriteItemValue("", "OPCLabs.KitServer.2", "SimulateEvents.ConditionState2.Activate", true);
+                EasyDaClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState1.Activate", true);
+                EasyDaClient.WriteItemValue("", "AutoJet.ACPFileServerAE.1", "SimulateEvents.ConditionState2.Activate", true);
                 Thread.Sleep(10 * 1000);
 
                 Console.WriteLine("Refreshing subscription and waiting for 10 seconds...");

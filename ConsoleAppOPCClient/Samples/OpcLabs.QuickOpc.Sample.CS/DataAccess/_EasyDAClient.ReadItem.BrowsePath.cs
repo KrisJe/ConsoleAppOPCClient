@@ -19,7 +19,7 @@ namespace DocExamples
                 var easyDAClient = new EasyDAClient();
 
                 DAVtq vtq = easyDAClient.ReadItem(
-                    new ServerDescriptor("", "OPCLabs.KitServer.2"), 
+                    new ServerDescriptor("", "AutoJet.ACPFileServerDA.1"), 
                     new DAItemDescriptor(null, "/Simulation/Random"));
 
                 Console.WriteLine("Vtq: {0}", vtq);

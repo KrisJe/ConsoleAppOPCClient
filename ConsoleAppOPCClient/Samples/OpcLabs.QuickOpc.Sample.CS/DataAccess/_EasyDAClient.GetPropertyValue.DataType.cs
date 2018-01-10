@@ -20,7 +20,7 @@ namespace DocExamples
                 var easyDAClient = new EasyDAClient();
 
                 // Get the value of DataType property; it is a 16-bit signed integer
-                var dataType = (short)easyDAClient.GetPropertyValue("", "OPCLabs.KitServer.2", "Simulation.Random",
+                var dataType = (short)easyDAClient.GetPropertyValue("", "AutoJet.ACPFileServerDA.1", "Simulation.Random",
                     DAPropertyIds.DataType);
                 // Convert the data type to VarType
                 var varType = (VarType)dataType;
