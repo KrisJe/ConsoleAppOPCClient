@@ -1,0 +1,42 @@
+Cttmt2008
+Cttmt2008.Communication
+Cttmt2008.Communication.Commands
+Cttmt2008.Communication.Commands.Reconnect -> ** Access rights of the topic do not allow reading.  **
+Cttmt2008.Communication.Commands.Hang up -> ** Access rights of the topic do not allow reading.  **
+Cttmt2008.Communication.Events
+Cttmt2008.Communication.Events.Last error event -> -1073741716
+Cttmt2008.Communication.Events.Last event description -> The OPC Server could not communicate with controller on COM91 (Cttmt2008),
+received garbage: @F
+.
+Cttmt2008.Communication.Events.Last event -> -1073741716
+Cttmt2008.Communication.Events.Last error event description -> The OPC Server could not communicate with controller on COM91 (Cttmt2008),
+received garbage: @F
+.
+Cttmt2008.Communication.Status
+Cttmt2008.Communication.Status.Value -> 3
+Cttmt2008.Communication.Status.Description -> Port open
+Cttmt2008.Communication.Configuration
+Cttmt2008.Communication.Configuration.Slow flushing -> False
+Cttmt2008.Communication.Configuration.Use modem -> False
+Cttmt2008.Communication.Configuration.Baudrate -> 38400
+Cttmt2008.Communication.Configuration.Tone(0)/Pulse(1) -> False
+Cttmt2008.Communication.Configuration.Port -> COM91
+Cttmt2008.Communication.Configuration.Init String -> 
+Cttmt2008.Communication.Configuration.Dial Number -> 
+Cttmt2008.Communication.Configuration.Use checksum -> False
+Cttmt2008.Frequency Input
+Cttmt2008.Frequency Input.Speed
+Cttmt2008.Frequency Input.Speed.counter -> 0
+Cttmt2008.Frequency Input.Speed.raw value -> 0
+Cttmt2008.Frequency Input.Speed.digital state -> 0
+Cttmt2008.Frequency Input.Speed.value -> 0
+Cttmt2008.Analog Input
+Cttmt2008.Analog Input.Current high
+Cttmt2008.Analog Input.Current high.value -> 0,036752
+Cttmt2008.Analog Input.Speed
+Cttmt2008.Analog Input.Speed.value -> 0
+Cttmt2008.Analog Input.Current low
+Cttmt2008.Analog Input.Current low.value -> 0,026912
+Cttmt2008.Analog Input.Temperature
+Cttmt2008.Analog Input.Temperature.value -> 33,844
+Cttmt2008.Analog Input.Voltage

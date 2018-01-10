@@ -1,0 +1,362 @@
+Cttmt2008
+Cttmt2008.Communication
+Cttmt2008.Communication.Commands
+Cttmt2008.Communication.Commands.Reconnect
+Cttmt2008.Communication.Commands.Hang up
+Cttmt2008.Communication.Events
+Cttmt2008.Communication.Events.Last error event
+Cttmt2008.Communication.Events.Last event description
+Cttmt2008.Communication.Events.Last event
+Cttmt2008.Communication.Events.Last error event description
+Cttmt2008.Communication.Status
+Cttmt2008.Communication.Status.Value
+Cttmt2008.Communication.Status.Description
+Cttmt2008.Communication.Configuration
+Cttmt2008.Communication.Configuration.Slow flushing
+Cttmt2008.Communication.Configuration.Use modem
+Cttmt2008.Communication.Configuration.Baudrate
+Cttmt2008.Communication.Configuration.Tone(0)/Pulse(1)
+Cttmt2008.Communication.Configuration.Port
+Cttmt2008.Communication.Configuration.Init String
+Cttmt2008.Communication.Configuration.Dial Number
+Cttmt2008.Communication.Configuration.Use checksum
+Cttmt2008.Frequency Input
+Cttmt2008.Frequency Input.Speed
+Cttmt2008.Frequency Input.Speed.counter
+Cttmt2008.Frequency Input.Speed.raw value
+Cttmt2008.Frequency Input.Speed.digital state
+Cttmt2008.Frequency Input.Speed.value
+Cttmt2008.Analog Input
+Cttmt2008.Analog Input.Current high
+Cttmt2008.Analog Input.Current high.value
+Cttmt2008.Analog Input.Speed
+Cttmt2008.Analog Input.Speed.value
+Cttmt2008.Analog Input.Current low
+Cttmt2008.Analog Input.Current low.value
+Cttmt2008.Analog Input.Temperature
+Cttmt2008.Analog Input.Temperature.value
+Cttmt2008.Analog Input.Voltage
+Cttmt2008.Analog Input.Voltage.value
+Cttmt2008.Analog Input.AI1
+Cttmt2008.Analog Input.AI1.raw value
+Cttmt2008.Analog Input.AI1.value
+Cttmt2008.Analog Input.AI3
+Cttmt2008.Analog Input.AI3.raw value
+Cttmt2008.Analog Input.AI3.value
+Cttmt2008.Analog Input.AI2
+Cttmt2008.Analog Input.AI2.raw value
+Cttmt2008.Analog Input.AI2.value
+Cttmt2008.Digital Input
+Cttmt2008.Digital Input.DI1
+Cttmt2008.Digital Input.DI1.actual value
+Cttmt2008.Digital Input.DI2
+Cttmt2008.Digital Input.DI2.actual value
+Cttmt2008.Digital Input.DI3
+Cttmt2008.Digital Input.DI3.actual value
+Cttmt2008.Digital Input.Stop
+Cttmt2008.Digital Input.Stop.actual value
+Cttmt2008.Digital Input.Speed
+Cttmt2008.Digital Input.Speed.actual value
+Cttmt2008.Digital Input.Run stand by
+Cttmt2008.Digital Input.Run stand by.actual value
+Cttmt2008.Digital Input.Reset fault
+Cttmt2008.Digital Input.Reset fault.actual value
+Cttmt2008.Digital Input.LocalRemote
+Cttmt2008.Digital Input.LocalRemote.actual value
+Cttmt2008.Digital Input.Tank level
+Cttmt2008.Digital Input.Tank level.actual value
+Cttmt2008.Digital Input.Trigger
+Cttmt2008.Digital Input.Trigger.actual value
+Cttmt2008.Spray Gun
+Cttmt2008.Spray Gun.Spray Gun
+Cttmt2008.Spray Gun.Spray Gun.status
+Cttmt2008.Spray Gun.Spray Gun.frequency
+Cttmt2008.Spray Gun.Spray Gun.Minimum on off period
+Cttmt2008.Spray Gun.Spray Gun.duty cycle
+Cttmt2008.Spray Gun.Spray Gun.period
+Cttmt2008.Spray Gun.Spray Gun.spraying time
+Cttmt2008.Spray Gun.Spray Gun.calculated period
+Cttmt2008.Spray Gun.Spray Gun.command
+Cttmt2008.Spray Gun.Spray Gun.PWM Time negative
+Cttmt2008.Spray Gun.Spray Gun.PWM Time positive
+Cttmt2008.Spray Gun.Spray Gun.calculated duty cycle
+Cttmt2008.Spray Gun.Spray Gun.shots
+Cttmt2008.Fault
+Cttmt2008.Fault.Internal temperature too high
+Cttmt2008.Fault.Internal temperature too high.state
+Cttmt2008.Fault.External 2
+Cttmt2008.Fault.External 2.state
+Cttmt2008.Fault.External 1
+Cttmt2008.Fault.External 1.state
+Cttmt2008.Fault.Vin voltage too low
+Cttmt2008.Fault.Vin voltage too low.state
+Cttmt2008.Fault.Gun output open
+Cttmt2008.Fault.Gun output open.state
+Cttmt2008.Fault.AI2 sensor fault
+Cttmt2008.Fault.AI2 sensor fault.state
+Cttmt2008.Fault.High sink current
+Cttmt2008.Fault.High sink current.state
+Cttmt2008.Fault.Gun output
+Cttmt2008.Fault.Gun output.state
+Cttmt2008.Fault.High source current
+Cttmt2008.Fault.High source current.state
+Cttmt2008.Fault.Gun output to ground
+Cttmt2008.Fault.Gun output to ground.state
+Cttmt2008.Fault.Pressure too low
+Cttmt2008.Fault.Pressure too low.state
+Cttmt2008.Fault.AI1 sensor fault
+Cttmt2008.Fault.AI1 sensor fault.state
+Cttmt2008.Fault.Tank empty
+Cttmt2008.Fault.Tank empty.state
+Cttmt2008.Fault.Pressure too high
+Cttmt2008.Fault.Pressure too high.state
+Cttmt2008.Fault.Vin voltage too high
+Cttmt2008.Fault.Vin voltage too high.state
+Cttmt2008.Digital Output
+Cttmt2008.Digital Output.DO2
+Cttmt2008.Digital Output.DO2.value
+Cttmt2008.Digital Output.DO3
+Cttmt2008.Digital Output.DO3.value
+Cttmt2008.Digital Output.DO1
+Cttmt2008.Digital Output.DO1.value
+Cttmt2008.System
+Cttmt2008.System.System
+Cttmt2008.System.System.Hardware revision
+Cttmt2008.System.System.Revision
+Cttmt2008.System.System.Powered time
+Cttmt2008.System.System.status
+Cttmt2008.System.System.system command
+Cttmt2008.System.System.Version
+Cttmt2008.Parameter
+Cttmt2008.Parameter.Sensor Tolerance Time
+Cttmt2008.Parameter.Sensor Tolerance Time.value
+Cttmt2008.Parameter.Center spray
+Cttmt2008.Parameter.Center spray.value
+Cttmt2008.Parameter.Off period
+Cttmt2008.Parameter.Off period.value
+Cttmt2008.Parameter.Manual AI3
+Cttmt2008.Parameter.Manual AI3.value
+Cttmt2008.Parameter.Manual AI2
+Cttmt2008.Parameter.Manual AI2.value
+Cttmt2008.Parameter.Manual AI1
+Cttmt2008.Parameter.Manual AI1.value
+Cttmt2008.Parameter.Manual DO1
+Cttmt2008.Parameter.Manual DO1.value
+Cttmt2008.Parameter.Manual DO2
+Cttmt2008.Parameter.Manual DO2.value
+Cttmt2008.Parameter.Manual DO3
+Cttmt2008.Parameter.Manual DO3.value
+Cttmt2008.Parameter.AI2 function local
+Cttmt2008.Parameter.AI2 function local.value
+Cttmt2008.Parameter.Timing function local
+Cttmt2008.Parameter.Timing function local.value
+Cttmt2008.Parameter.Fine range
+Cttmt2008.Parameter.Fine range.value
+Cttmt2008.Parameter.Spray period
+Cttmt2008.Parameter.Spray period.value
+Cttmt2008.Parameter.FI function local
+Cttmt2008.Parameter.FI function local.value
+Cttmt2008.Parameter.PWM high behavior
+Cttmt2008.Parameter.PWM high behavior.value
+Cttmt2008.Parameter.AI1 filter
+Cttmt2008.Parameter.AI1 filter.value
+Cttmt2008.Parameter.Manual PWM duty cycle
+Cttmt2008.Parameter.Manual PWM duty cycle.value
+Cttmt2008.Parameter.DI1 function
+Cttmt2008.Parameter.DI1 function.value
+Cttmt2008.Parameter.DO1 function
+Cttmt2008.Parameter.DO1 function.value
+Cttmt2008.Parameter.Manual PWM enabled
+Cttmt2008.Parameter.Manual PWM enabled.value
+Cttmt2008.Parameter.Fault output flashing
+Cttmt2008.Parameter.Fault output flashing.value
+Cttmt2008.Parameter.AI2 max
+Cttmt2008.Parameter.AI2 max.value
+Cttmt2008.Parameter.Baudrate
+Cttmt2008.Parameter.Baudrate.value
+Cttmt2008.Parameter.AI1 function local
+Cttmt2008.Parameter.AI1 function local.value
+Cttmt2008.Parameter.Modbus extra delay
+Cttmt2008.Parameter.Modbus extra delay.value
+Cttmt2008.Parameter.FI function
+Cttmt2008.Parameter.FI function.value
+Cttmt2008.Parameter.External fault 1
+Cttmt2008.Parameter.External fault 1.value
+Cttmt2008.Parameter.External fault 2
+Cttmt2008.Parameter.External fault 2.value
+Cttmt2008.Parameter.AI2 offset
+Cttmt2008.Parameter.AI2 offset.value
+Cttmt2008.Parameter.PWM Hold voltage
+Cttmt2008.Parameter.PWM Hold voltage.value
+Cttmt2008.Parameter.PWM maximum on off distance
+Cttmt2008.Parameter.PWM maximum on off distance.value
+Cttmt2008.Parameter.Shutdown on tank empty fault
+Cttmt2008.Parameter.Shutdown on tank empty fault.value
+Cttmt2008.Parameter.PWM maximum duty cycle
+Cttmt2008.Parameter.PWM maximum duty cycle.value
+Cttmt2008.Parameter.Spray width
+Cttmt2008.Parameter.Spray width.value
+Cttmt2008.Parameter.Trigger counter local
+Cttmt2008.Parameter.Trigger counter local.value
+Cttmt2008.Parameter.Manual local remote enabled
+Cttmt2008.Parameter.Manual local remote enabled.value
+Cttmt2008.Parameter.Trigger counter
+Cttmt2008.Parameter.Trigger counter.value
+Cttmt2008.Parameter.Application rate
+Cttmt2008.Parameter.Application rate.value
+Cttmt2008.Parameter.Speed stop time
+Cttmt2008.Parameter.Speed stop time.value
+Cttmt2008.Parameter.AI2 filter
+Cttmt2008.Parameter.AI2 filter.value
+Cttmt2008.Parameter.Invert run stand by
+Cttmt2008.Parameter.Invert run stand by.value
+Cttmt2008.Parameter.Manual DI2
+Cttmt2008.Parameter.Manual DI2.value
+Cttmt2008.Parameter.Manual DI3
+Cttmt2008.Parameter.Manual DI3.value
+Cttmt2008.Parameter.Manual DI1
+Cttmt2008.Parameter.Manual DI1.value
+Cttmt2008.Parameter.PWM low behavior
+Cttmt2008.Parameter.PWM low behavior.value
+Cttmt2008.Parameter.Start delay
+Cttmt2008.Parameter.Start delay.value
+Cttmt2008.Parameter.Manual local remote
+Cttmt2008.Parameter.Manual local remote.value
+Cttmt2008.Parameter.AI1 min
+Cttmt2008.Parameter.AI1 min.value
+Cttmt2008.Parameter.AI3 max
+Cttmt2008.Parameter.AI3 max.value
+Cttmt2008.Parameter.Maximum pressure
+Cttmt2008.Parameter.Maximum pressure.value
+Cttmt2008.Parameter.On period
+Cttmt2008.Parameter.On period.value
+Cttmt2008.Parameter.DI2 function
+Cttmt2008.Parameter.DI2 function.value
+Cttmt2008.Parameter.DO2 function
+Cttmt2008.Parameter.DO2 function.value
+Cttmt2008.Parameter.Speed calibration analog
+Cttmt2008.Parameter.Speed calibration analog.value
+Cttmt2008.Parameter.Modbus broadcast workaround
+Cttmt2008.Parameter.Modbus broadcast workaround.value
+Cttmt2008.Parameter.Stop delay
+Cttmt2008.Parameter.Stop delay.value
+Cttmt2008.Parameter.Automatic minimum cycles/min
+Cttmt2008.Parameter.Automatic minimum cycles/min.value
+Cttmt2008.Parameter.Anticipator time
+Cttmt2008.Parameter.Anticipator time.value
+Cttmt2008.Parameter.Maximum alarm pressure
+Cttmt2008.Parameter.Maximum alarm pressure.value
+Cttmt2008.Parameter.Minimum alarm pressure
+Cttmt2008.Parameter.Minimum alarm pressure.value
+Cttmt2008.Parameter.DO3 function
+Cttmt2008.Parameter.DO3 function.value
+Cttmt2008.Parameter.Complete cycle on stand by
+Cttmt2008.Parameter.Complete cycle on stand by.value
+Cttmt2008.Parameter.Expected pressure
+Cttmt2008.Parameter.Expected pressure.value
+Cttmt2008.Parameter.Invert trigger
+Cttmt2008.Parameter.Invert trigger.value
+Cttmt2008.Parameter.PWM slave
+Cttmt2008.Parameter.PWM slave.value
+Cttmt2008.Parameter.Timing function
+Cttmt2008.Parameter.Timing function.value
+Cttmt2008.Parameter.PWM Precharge Voltage
+Cttmt2008.Parameter.PWM Precharge Voltage.value
+Cttmt2008.Parameter.Manual direct action
+Cttmt2008.Parameter.Manual direct action.value
+Cttmt2008.Parameter.Manual run standby
+Cttmt2008.Parameter.Manual run standby.value
+Cttmt2008.Parameter.AI1 function
+Cttmt2008.Parameter.AI1 function.value
+Cttmt2008.Parameter.PWM duty cycle
+Cttmt2008.Parameter.PWM duty cycle.value
+Cttmt2008.Parameter.Modbus address
+Cttmt2008.Parameter.Modbus address.value
+Cttmt2008.Parameter.Invert reset fault
+Cttmt2008.Parameter.Invert reset fault.value
+Cttmt2008.Parameter.Invert local remote
+Cttmt2008.Parameter.Invert local remote.value
+Cttmt2008.Parameter.PWM offset
+Cttmt2008.Parameter.PWM offset.value
+Cttmt2008.Parameter.PWM minimum duty cycle
+Cttmt2008.Parameter.PWM minimum duty cycle.value
+Cttmt2008.Parameter.Invert stop
+Cttmt2008.Parameter.Invert stop.value
+Cttmt2008.Parameter.PWM Time negative
+Cttmt2008.Parameter.PWM Time negative.value
+Cttmt2008.Parameter.AI1 max
+Cttmt2008.Parameter.AI1 max.value
+Cttmt2008.Parameter.AI3 min
+Cttmt2008.Parameter.AI3 min.value
+Cttmt2008.Parameter.PWM Error reset time
+Cttmt2008.Parameter.PWM Error reset time.value
+Cttmt2008.Parameter.Manual run standby enabled
+Cttmt2008.Parameter.Manual run standby enabled.value
+Cttmt2008.Parameter.Follower time
+Cttmt2008.Parameter.Follower time.value
+Cttmt2008.Parameter.Manual DO1 enabled
+Cttmt2008.Parameter.Manual DO1 enabled.value
+Cttmt2008.Parameter.Manual DO2 enabled
+Cttmt2008.Parameter.Manual DO2 enabled.value
+Cttmt2008.Parameter.Manual DO3 enabled
+Cttmt2008.Parameter.Manual DO3 enabled.value
+Cttmt2008.Parameter.Manual AI1 enabled
+Cttmt2008.Parameter.Manual AI1 enabled.value
+Cttmt2008.Parameter.Manual AI2 enabled
+Cttmt2008.Parameter.Manual AI2 enabled.value
+Cttmt2008.Parameter.Manual AI3 enabled
+Cttmt2008.Parameter.Manual AI3 enabled.value
+Cttmt2008.Parameter.Manual DI1 enabled
+Cttmt2008.Parameter.Manual DI1 enabled.value
+Cttmt2008.Parameter.Manual DI2 enabled
+Cttmt2008.Parameter.Manual DI2 enabled.value
+Cttmt2008.Parameter.Manual DI3 enabled
+Cttmt2008.Parameter.Manual DI3 enabled.value
+Cttmt2008.Parameter.PWM maximum on off time
+Cttmt2008.Parameter.PWM maximum on off time.value
+Cttmt2008.Parameter.Manual PWM cycles/min
+Cttmt2008.Parameter.Manual PWM cycles/min.value
+Cttmt2008.Parameter.AI3 function
+Cttmt2008.Parameter.AI3 function.value
+Cttmt2008.Parameter.Maximum flow
+Cttmt2008.Parameter.Maximum flow.value
+Cttmt2008.Parameter.AI1 offset
+Cttmt2008.Parameter.AI1 offset.value
+Cttmt2008.Parameter.Invert DO3
+Cttmt2008.Parameter.Invert DO3.value
+Cttmt2008.Parameter.Invert DO2
+Cttmt2008.Parameter.Invert DO2.value
+Cttmt2008.Parameter.Invert DO1
+Cttmt2008.Parameter.Invert DO1.value
+Cttmt2008.Parameter.AI2 min
+Cttmt2008.Parameter.AI2 min.value
+Cttmt2008.Parameter.PWM minimum cycles/min
+Cttmt2008.Parameter.PWM minimum cycles/min.value
+Cttmt2008.Parameter.Invert tank level
+Cttmt2008.Parameter.Invert tank level.value
+Cttmt2008.Parameter.Speed calibration frequency
+Cttmt2008.Parameter.Speed calibration frequency.value
+Cttmt2008.Parameter.AI3 function local
+Cttmt2008.Parameter.AI3 function local.value
+Cttmt2008.Parameter.AI3 filter
+Cttmt2008.Parameter.AI3 filter.value
+Cttmt2008.Parameter.Startup mode
+Cttmt2008.Parameter.Startup mode.value
+Cttmt2008.Parameter.PWM Time positive
+Cttmt2008.Parameter.PWM Time positive.value
+Cttmt2008.Parameter.Modbus encoding
+Cttmt2008.Parameter.Modbus encoding.value
+Cttmt2008.Parameter.Check trigger on run
+Cttmt2008.Parameter.Check trigger on run.value
+Cttmt2008.Parameter.PWM cycles/min
+Cttmt2008.Parameter.PWM cycles/min.value
+Cttmt2008.Parameter.Anticipator priority
+Cttmt2008.Parameter.Anticipator priority.value
+Cttmt2008.Parameter.Maximum speed
+Cttmt2008.Parameter.Maximum speed.value
+Cttmt2008.Parameter.AI2 function
+Cttmt2008.Parameter.AI2 function.value
+Cttmt2008.Parameter.Density
+Cttmt2008.Parameter.Density.value
+Cttmt2008.Parameter.Duty cycle offset
+Cttmt2008.Parameter.Duty cycle offset.value

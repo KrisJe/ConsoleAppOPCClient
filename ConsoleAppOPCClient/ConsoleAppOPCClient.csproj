@@ -32,21 +32,354 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.1.3\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.1.1.2\lib\net451\Microsoft.AspNetCore.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Abstractions.1.1.2\lib\net451\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Server.Abstractions.1.1.2\lib\net451\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.1.1.2\lib\net451\Microsoft.AspNetCore.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Abstractions.1.1.2\lib\net451\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Extensions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Extensions.1.1.2\lib\net451\Microsoft.AspNetCore.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.1.1.2\lib\net451\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Server.Kestrel.1.1.2\lib\net451\Microsoft.AspNetCore.Server.Kestrel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel.Https, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Server.Kestrel.Https.1.1.2\lib\net451\Microsoft.AspNetCore.Server.Kestrel.Https.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.WebUtilities, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.WebUtilities.1.1.2\lib\net451\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.1.1.2\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.EnvironmentVariables, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.EnvironmentVariables.1.1.2\lib\net451\Microsoft.Extensions.Configuration.EnvironmentVariables.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.1.1.1\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.1\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.1.1.1\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Physical.1.1.1\lib\net451\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileSystemGlobbing.1.1.1\lib\net45\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.ObjectPool, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.ObjectPool.1.1.1\lib\net451\Microsoft.Extensions.ObjectPool.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.1.1.2\lib\netstandard1.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.PlatformAbstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.PlatformAbstractions.1.1.0\lib\net451\Microsoft.Extensions.PlatformAbstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.1.1.1\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.Headers.1.1.2\lib\netstandard1.1\Microsoft.Net.Http.Headers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Opc.Ua.Client, Version=1.3.350.0, Culture=neutral, PublicKeyToken=bfa7a73c5cf4b6e8, processorArchitecture=MSIL">
+      <HintPath>..\packages\OPCFoundation.NetStandard.Opc.Ua.1.3.350.6\lib\net46\Opc.Ua.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Opc.Ua.Configuration, Version=1.3.350.0, Culture=neutral, PublicKeyToken=bfa7a73c5cf4b6e8, processorArchitecture=MSIL">
+      <HintPath>..\packages\OPCFoundation.NetStandard.Opc.Ua.1.3.350.6\lib\net46\Opc.Ua.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Opc.Ua.Core, Version=1.3.350.0, Culture=neutral, PublicKeyToken=bfa7a73c5cf4b6e8, processorArchitecture=MSIL">
+      <HintPath>..\packages\OPCFoundation.NetStandard.Opc.Ua.1.3.350.6\lib\net46\Opc.Ua.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Opc.Ua.Server, Version=1.3.350.0, Culture=neutral, PublicKeyToken=bfa7a73c5cf4b6e8, processorArchitecture=MSIL">
+      <HintPath>..\packages\OPCFoundation.NetStandard.Opc.Ua.1.3.350.6\lib\net46\Opc.Ua.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcLabs.BaseLib, Version=5.51.465.1, Culture=neutral, PublicKeyToken=6faddca41dacb409, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpcLabs.QuickOpc.5.51.465\lib\net452\OpcLabs.BaseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcLabs.BaseLibForms, Version=5.51.465.1, Culture=neutral, PublicKeyToken=6faddca41dacb409, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpcLabs.QuickOpc.5.51.465\lib\net452\OpcLabs.BaseLibForms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcLabs.EasyOpcClassic, Version=5.51.465.1, Culture=neutral, PublicKeyToken=6faddca41dacb409, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpcLabs.QuickOpc.5.51.465\lib\net452\OpcLabs.EasyOpcClassic.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcLabs.EasyOpcForms, Version=5.51.465.1, Culture=neutral, PublicKeyToken=6faddca41dacb409, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpcLabs.QuickOpc.Forms.5.51.465\lib\net452\OpcLabs.EasyOpcForms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcLabs.EasyOpcUA, Version=5.51.465.1, Culture=neutral, PublicKeyToken=6faddca41dacb409, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpcLabs.QuickOpc.5.51.465\lib\net452\OpcLabs.EasyOpcUA.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net46\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.3.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.NonGeneric.4.3.0\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Specialized.4.3.0\lib\net46\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.Common.4.3.0\lib\net451\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.3.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.0\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.NameResolution.4.3.0\lib\net46\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Security.4.3.0\lib\net46\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.WebSockets.4.3.0\lib\net46\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.WebSockets.Client.4.3.0\lib\net46\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.3.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.DispatchProxy.4.3.0\lib\netstandard1.3\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata, Version=1.4.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.Metadata.1.4.1\lib\portable-net45+win8\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.TypeExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.TypeExtensions.4.3.0\lib\net46\System.Reflection.TypeExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.3.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Serialization.Primitives.4.3.0\lib\net46\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Serialization.Xml.4.3.0\lib\net46\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Claims.4.3.0\lib\net46\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.3.0\lib\net46\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.3.0\lib\net46\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.3.1\lib\netstandard1.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.XmlDocument.4.3.0\lib\net46\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\AEExamplesMenu.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\SWToolbox.TOPServer_AE.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_AEAttributeElement.Properties.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_AECategoryElement.Properties.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_AEConditionElement.Properties.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_AESubscriptionFilter.Properties.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.AcknowledgeCondition.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.BrowseAreas.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.BrowseServers.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.BrowseSources.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.ChangeEventSubscription.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.GetConditionState.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.PullNotification.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.QueryEventCategories.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.QuerySourceConditions.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.RefreshEventSubscription.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.SubscribeEvents.CallbackLambda.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.SubscribeEvents.FilterByCategories.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.SubscribeEvents.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.UnsubscribeAllEvents.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAEClient.UnsubscribeEvents.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\AlarmsAndEvents\_EasyAENotificationEventArgs.AttributeValues.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\DAExamplesMenu.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_DAClientMapper.DefineMapping.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_DAClientMapper.DefineMapping.MappingKinds.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_DAClientMapper.DefineMapping.Subscribe.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.BrowseNodes.DataTypes.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.BrowseNodes.Recursive.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.BrowseNodes.RecursiveWithRead.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ChangeItemSubscription.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ChangeItemSubscription.PercentDeadband.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.GetMultiplePropertyValues.DataType.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.GetPropertyValue.DataType.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.GetPropertyValue.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.PullItemChanged.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ReadItem.BrowsePath.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ReadItem.DataTypes.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ReadItem.GetTypeCode.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ReadItem.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ReadItemValue.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ReadMultipleItems.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ReadMultipleItems.TimeMeasurements.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.ReadMultipleItems.Xml.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.SubscribeItem.CallbackLambda.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.SubscribeItem.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.SubscribeMultipleItems.DataTypes.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.SubscribeMultipleItems.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.SubscribeMultipleItems.ManyItems.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.UnsubscribeItem.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.WriteItemValue.Array.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.WriteItemValue.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.WriteMultipleItemValues.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClient.WriteMultipleItemValues.TimeMeasurements.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClientExtension.GetDataTypePropertyValue.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClientExtension.GetItemPropertyRecord.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClientExtension.GetPropertyValueDictionary.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\DataAccess\_EasyDAClientHoldPeriods.TopicWrite.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\UAExamplesMenu.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.Acknowledge.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.BrowseDataNodes.Overload1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.BrowseDataVariables.Overload2.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.BrowseEventSources.Overload2.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.BrowseNodes.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.BrowseNotifiers.Overload2.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.BrowseObjects.Overload2.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.BrowseProperties.Overload2.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.ChangeMonitoredItemSubscription.Overload1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.ChangeMultipleMonitoredItemSubscriptions.Overload2.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.DiscoverServers.Overload1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.DiscoverServersOnNetwork.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.GetMonitoredItemArguments.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.GetMonitoredItemArgumentsDictionary.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.PullDataChangeNotification.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.PullEventNotification.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.Read.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.ReadMultiple.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.ReadMultipleValues.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.ReadValue.Overload1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.SubscribeDataChange.CallbackLambda.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.SubscribeDataChange.Overload1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.SubscribeEvent.CallbackLambda.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.SubscribeEvent.Overload1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.SubscribeMultipleMonitoredItems.Events.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.SubscribeMultipleMonitoredItems.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.UnsubscribeAllMonitoredItems.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.UnsubscribeMonitoredItem.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.UnsubscribeMultipleMonitoredItems.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.Write.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.WriteMultiple.TestSuccess.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.WriteMultipleValues.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.WriteMultipleValues.TestSuccess.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_EasyUAClient.WriteValue.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_UAClientMapper.DefineMapping.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_UAEventData.BaseEvent.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_UAEventData.FieldResults.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_UAEventFilter.SelectClauses.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_UAEventFilter.WhereClause.Main1.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_UAIndexRangeList.Usage.ReadValue.cs" />
+    <Compile Include="Samples\OpcLabs.QuickOpc.Sample.CS\UA\_UANodeId._Construction.Main1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
